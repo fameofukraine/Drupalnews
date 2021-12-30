@@ -1,0 +1,23 @@
+uuid: abb4bd13-4611-4c15-9b3d-db1645ca638f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.culture
+  module:
+    - text
+id: node.culture.body
+field_name: body
+entity_type: node
+bundle: culture
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

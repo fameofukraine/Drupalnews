@@ -1,0 +1,39 @@
+uuid: 690fc88d-439c-49b4-aa77-bb425e9a16c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sports.body
+    - field.field.node.sports.field_img_sports
+    - node.type.sports
+  module:
+    - image
+    - text
+    - user
+id: node.sports.default
+targetEntityType: node
+bundle: sports
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_img_sports:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

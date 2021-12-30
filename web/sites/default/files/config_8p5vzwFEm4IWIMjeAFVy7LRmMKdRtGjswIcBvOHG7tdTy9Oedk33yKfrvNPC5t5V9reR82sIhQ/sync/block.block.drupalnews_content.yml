@@ -1,0 +1,22 @@
+uuid: 72617783-2df1-44db-9adb-03a2182e441f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalnews
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: drupalnews_content
+theme: drupalnews
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

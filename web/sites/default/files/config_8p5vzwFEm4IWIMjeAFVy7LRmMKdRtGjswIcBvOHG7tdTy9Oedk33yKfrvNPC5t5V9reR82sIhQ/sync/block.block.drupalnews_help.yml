@@ -1,0 +1,22 @@
+uuid: 2074ca7f-6ea9-4f68-bf92-759de1c619a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - drupalnews
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: drupalnews_help
+theme: drupalnews
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,39 @@
+uuid: ffa872dd-a937-44f5-b394-d6bf3ffd3fe9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.music.body
+    - field.field.node.music.field_img_music
+    - node.type.music
+  module:
+    - image
+    - text
+    - user
+id: node.music.default
+targetEntityType: node
+bundle: music
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_img_music:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

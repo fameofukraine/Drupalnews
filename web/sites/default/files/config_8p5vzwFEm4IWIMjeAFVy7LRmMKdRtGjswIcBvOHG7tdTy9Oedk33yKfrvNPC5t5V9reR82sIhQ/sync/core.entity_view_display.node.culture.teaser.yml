@@ -1,0 +1,32 @@
+uuid: 3f7284de-b3ab-406f-bc20-878781b0be23
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.culture.body
+    - field.field.node.culture.field_img_cul
+    - node.type.culture
+  module:
+    - text
+    - user
+id: node.culture.teaser
+targetEntityType: node
+bundle: culture
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_img_cul: true

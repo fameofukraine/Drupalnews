@@ -1,0 +1,22 @@
+uuid: a9a5b3a1-9419-4f21-9bd4-66375b308a29
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalnews
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: drupalnews_breadcrumbs
+theme: drupalnews
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

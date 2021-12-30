@@ -1,0 +1,20 @@
+uuid: 228c3a2e-df6d-498e-bc7e-e88a529288a2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalnews
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: drupalnews_page_title
+theme: drupalnews
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

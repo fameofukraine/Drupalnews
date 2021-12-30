@@ -1,0 +1,25 @@
+uuid: bb6c5c13-f100-4895-ae00-5597251dd6d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalnews
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: drupalnews_branding
+theme: drupalnews
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 5c7eab72-8d85-46dd-bc0a-599ce546a1eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - exchange_rates
+  theme:
+    - drupalnews
+id: drupalnews_exchangerates
+theme: drupalnews
+region: sidebar_first
+weight: 0
+provider: null
+plugin: exchange_rates_block
+settings:
+  id: exchange_rates_block
+  label: 'Exchange Rates'
+  provider: exchange_rates
+  label_display: visible
+visibility: {  }

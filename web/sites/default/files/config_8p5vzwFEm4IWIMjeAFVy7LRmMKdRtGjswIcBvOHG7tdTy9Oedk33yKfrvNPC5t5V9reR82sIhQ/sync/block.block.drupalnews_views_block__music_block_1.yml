@@ -1,0 +1,24 @@
+uuid: 107c001b-bd28-4f75-8be1-a2057b6f045d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.music
+  module:
+    - views
+  theme:
+    - drupalnews
+id: drupalnews_views_block__music_block_1
+theme: drupalnews
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:music-block_1'
+settings:
+  id: 'views_block:music-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

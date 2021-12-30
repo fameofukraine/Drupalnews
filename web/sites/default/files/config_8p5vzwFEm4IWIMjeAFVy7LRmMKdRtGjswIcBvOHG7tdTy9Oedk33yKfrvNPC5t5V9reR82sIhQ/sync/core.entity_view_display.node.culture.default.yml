@@ -1,0 +1,39 @@
+uuid: 504dc771-f42a-46dc-ace3-8ee749758afd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.culture.body
+    - field.field.node.culture.field_img_cul
+    - node.type.culture
+  module:
+    - image
+    - text
+    - user
+id: node.culture.default
+targetEntityType: node
+bundle: culture
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_img_cul:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

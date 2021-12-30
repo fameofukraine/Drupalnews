@@ -1,0 +1,24 @@
+uuid: 77522513-c1b3-4d5b-bc58-af3ae30cdb59
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.culture
+  module:
+    - views
+  theme:
+    - bootstrap
+id: views_block__culture_block_1
+theme: bootstrap
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_block:culture-block_1'
+settings:
+  id: 'views_block:culture-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

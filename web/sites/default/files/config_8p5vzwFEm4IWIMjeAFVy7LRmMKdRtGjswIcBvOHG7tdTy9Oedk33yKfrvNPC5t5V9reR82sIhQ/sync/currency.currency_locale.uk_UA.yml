@@ -1,0 +1,8 @@
+uuid: 5f46177b-57b1-469a-aab4-e4ec8e8863c1
+langcode: en
+status: true
+dependencies: {  }
+decimalSeparator: ','
+groupingSeparator: ' '
+locale: uk_UA
+pattern: '#,##0.00 ¤'

@@ -1,0 +1,20 @@
+uuid: 16ea7287-3379-40ec-8e35-5b2d0d3cccac
+langcode: en
+status: true
+dependencies:
+  module:
+    - exchange_rates
+  theme:
+    - bartik
+id: exchangerates
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: exchange_rates_block
+settings:
+  id: exchange_rates_block
+  label: 'Exchange Rates'
+  provider: exchange_rates
+  label_display: visible
+visibility: {  }

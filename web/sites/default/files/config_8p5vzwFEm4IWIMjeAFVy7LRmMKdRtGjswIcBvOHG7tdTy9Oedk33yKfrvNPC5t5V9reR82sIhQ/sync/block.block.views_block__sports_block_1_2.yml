@@ -1,0 +1,24 @@
+uuid: eaa93d75-44dd-4b05-9ef7-91563853d50b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sports
+  module:
+    - views
+  theme:
+    - bootstrap
+id: views_block__sports_block_1_2
+theme: bootstrap
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'views_block:sports-block_1'
+settings:
+  id: 'views_block:sports-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 8f98e37c-8125-4b2d-b506-2e3fd342d65c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sports
+  module:
+    - text
+id: node.sports.body
+field_name: body
+entity_type: node
+bundle: sports
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

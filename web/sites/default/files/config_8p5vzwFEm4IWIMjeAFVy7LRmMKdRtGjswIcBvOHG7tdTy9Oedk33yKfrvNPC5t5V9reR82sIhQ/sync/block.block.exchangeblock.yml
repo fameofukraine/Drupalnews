@@ -1,0 +1,25 @@
+uuid: 3b6a05a5-16e2-444b-8b90-a590dccb98e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - exchange_block
+    - system
+  theme:
+    - bootstrap
+id: exchangeblock
+theme: bootstrap
+region: sidebar_first
+weight: -8
+provider: null
+plugin: exchange_block
+settings:
+  id: exchange_block
+  label: 'Exchange block'
+  provider: exchange_block
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact\r\n/user/*"
+    negate: true

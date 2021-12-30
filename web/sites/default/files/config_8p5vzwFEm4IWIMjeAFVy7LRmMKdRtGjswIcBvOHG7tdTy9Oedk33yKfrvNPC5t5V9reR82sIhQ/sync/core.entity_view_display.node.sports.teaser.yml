@@ -1,0 +1,32 @@
+uuid: a8d3bc98-3b0c-4e45-a0f1-fb0a46de1341
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sports.body
+    - field.field.node.sports.field_img_sports
+    - node.type.sports
+  module:
+    - text
+    - user
+id: node.sports.teaser
+targetEntityType: node
+bundle: sports
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_img_sports: true

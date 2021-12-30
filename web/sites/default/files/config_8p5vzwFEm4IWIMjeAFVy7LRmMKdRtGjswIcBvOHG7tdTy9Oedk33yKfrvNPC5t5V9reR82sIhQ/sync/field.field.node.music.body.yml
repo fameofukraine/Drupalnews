@@ -1,0 +1,23 @@
+uuid: b2d0227f-19ae-45b6-959d-d2aa5a63f783
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.music
+  module:
+    - text
+id: node.music.body
+field_name: body
+entity_type: node
+bundle: music
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

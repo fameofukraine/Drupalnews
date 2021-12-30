@@ -1,0 +1,24 @@
+uuid: e2bd063b-f71b-4d15-b7f5-d1471c1619da
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sports
+  module:
+    - views
+  theme:
+    - drupalnews
+id: drupalnews_views_block__sports_block_1
+theme: drupalnews
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:sports-block_1'
+settings:
+  id: 'views_block:sports-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
